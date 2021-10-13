@@ -46,7 +46,7 @@ forEach(function callbackFn(element, index, array) { ... }, thisArg)
     - `element`
       - : The current element being processed in the array.
     - `index` {{optional_inline}}
-      - : The index of `element` in the array.
+      - : The index of `element` in the array (0 based).
     - `array` {{optional_inline}}
       - : The array `forEach()` was called upon.
 
